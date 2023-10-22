@@ -1,5 +1,6 @@
 mod client;
-mod config;
+pub mod configuration;
+pub mod models;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
