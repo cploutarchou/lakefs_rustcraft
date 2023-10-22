@@ -55,9 +55,8 @@ impl<'a> Configuration<'a> {
     }
 
     pub(crate) fn get_default() -> Self {
-        // Your default configuration implementation here
         Configuration {
-            base_path: "", // Default value, can be changed
+            base_path: "",
             server_index: 0,
             server_operation_index: HashMap::new(),
             server_variables: HashMap::new(),
